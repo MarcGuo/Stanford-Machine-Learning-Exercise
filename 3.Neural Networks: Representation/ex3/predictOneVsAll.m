@@ -34,9 +34,8 @@ for i = [ 1:num_labels ],
   h_X = X * all_theta(i,:)'; % size: m*1
   P(i,:) = h_X; % for each p q means the problility of X(q,:) belong to label p 
 end
-[MAX_VALUE, p] = max(P); % because our labels are the numbers (from 1 to 10) 
+[MAX_VALUE, p] = max(P',[],2); % because our labels are the numbers (from 1 to 10) 
 
-p = p';
 
 % =========================================================================
 

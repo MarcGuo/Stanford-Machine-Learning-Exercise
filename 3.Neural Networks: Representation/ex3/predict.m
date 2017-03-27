@@ -29,8 +29,6 @@ temp_a_2 = sigmoid(z_2); % size 5000*25
 a_2 = [ones(m, 1) temp_a_2]; % size 50000 * 26
 z_3 = a_2 * Theta2';  % size: 5000 * 10
 a_3 = sigmoid(z_3); % size: 5000*10
-[MAX_VALUE, p] = max(a_3');
-
-p = p';
+[MAX_VALUE, p] = max(a_3,[],2);
 
 end
