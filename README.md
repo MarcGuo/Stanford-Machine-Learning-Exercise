@@ -3,3 +3,5 @@ Just starting to learn the standford machine learning courses. I implement every
 
 # Added Exercise Solutions:
 * 1. Linear Regression
+* 2. Logistic Regression
+* 3. Neural Networks: Representation
