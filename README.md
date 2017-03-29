@@ -5,3 +5,4 @@ Just starting to learn the standford machine learning courses. I implement every
 * 1. Linear Regression
 * 2. Logistic Regression
 * 3. Neural Networks: Representation
+* 4. Neural Networks: Learning
