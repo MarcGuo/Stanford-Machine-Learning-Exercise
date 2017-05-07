@@ -6,3 +6,5 @@ Just starting to learn the standford machine learning courses. I implement every
 * 2. Logistic Regression
 * 3. Neural Networks: Representation
 * 4. Neural Networks: Learning
+* 5. Regularized Linear Regression and Bias v.s. Variance
+* 6. Support Vector Machines 
